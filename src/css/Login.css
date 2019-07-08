@@ -1,0 +1,32 @@
+.main-container{
+    display: grid;
+    grid-column: 1/-1;
+    height: 100vh;
+}
+.login-container{
+    display: grid;
+    grid-template-rows: auto 15vh 35px 35px 35px;
+}
+login-header{
+    grid-row: 1;
+}
+login-logo{
+    grid-row: 2;
+}
+login-user{
+    grid-row: 3;
+}
+login-pass{
+    grid-row: 4;
+}
+login-submit{
+    grid-row: 5;
+}
+btn-login{
+    padding: 5px;
+}
+.login-stats{
+    grid-column: 3;
+    text-align: right;
+    margin-right: 5px;
+}
